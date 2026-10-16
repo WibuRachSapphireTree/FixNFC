@@ -25,7 +25,7 @@ sudo apt install python3
 **1. Download the script**
 
 ```bash
-git clone https://github.com/Huy7684/FixNfc.git
+git clone https://github.com/WibuRachSapphireTree/FixNFC.git
 ```
 
 **2. Go into the folder**
@@ -37,13 +37,13 @@ cd FixNfc
 **3. Allow the script to run**
 
 ```bash
-chmod +x nfcfix.sh
+chmod +x FixNFC.sh
 ```
 
 **4. Run it on your ROM source**
 
 ```bash
-./nfcfix.sh ~/aosp
+./FixNFC.sh ~/aosp
 ```
 
 Replace `~/aosp` with the path to your ROM source folder.
@@ -57,7 +57,7 @@ Build as usual, then flash.
 Preview the changes without modifying anything:
 
 ```bash
-./nfcfix.sh --check ~/aosp
+./FixNFC.sh --check ~/aosp
 ```
 
 ## Notes
