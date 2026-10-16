@@ -31,7 +31,7 @@ git clone https://github.com/WibuRachSapphireTree/FixNFC.git
 **2. Go into the folder**
 
 ```bash
-cd FixNfc
+cd FixNFC
 ```
 
 **3. Allow the script to run**
